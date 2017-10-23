@@ -5,12 +5,14 @@ import { HomeComponent } from './components/home/home.component';
 import { QueComponent } from './components/que/que.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { ServicioComponent } from './components/servicio/servicio.component';
+import { VideosComponent } from './components/videos/videos.component';
 
 
 const APP_ROUTES: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'que', component: QueComponent },
     { path: 'galeria', component: GaleriaComponent },
+    { path: 'videos', component: VideosComponent },
     { path: 'servicio', component: ServicioComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' },
 

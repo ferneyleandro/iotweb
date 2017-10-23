@@ -9,6 +9,8 @@ import { QueComponent } from './components/que/que.component';
 
 import { APP_ROUTING } from './app.routes';
 import { ServicioComponent } from './components/servicio/servicio.component';
+import { VideosComponent } from './components/videos/videos.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { ServicioComponent } from './components/servicio/servicio.component';
     NavbarComponent,
     GaleriaComponent,
     QueComponent,
-    ServicioComponent
+    ServicioComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,
